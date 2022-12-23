@@ -1,0 +1,9 @@
+-IC:\Users\ASUS\OneDrive\Documents\My_programmes\CHATBOT
+-Ic:\MinGW\lib\gcc\mingw32\9.2.0\include\c++
+-Ic:\MinGW\lib\gcc\mingw32\9.2.0\include\c++\mingw32
+-Ic:\MinGW\lib\gcc\mingw32\9.2.0\include\c++\backward
+-Ic:\MinGW\lib\gcc\mingw32\9.2.0\include
+-Ic:\MinGW\include
+-Ic:\MinGW\lib\gcc\mingw32\9.2.0\include-fixed
+-target
+mingw32
