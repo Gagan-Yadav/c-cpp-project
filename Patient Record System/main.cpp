@@ -176,7 +176,8 @@ void add_patient(){
     print_heading("Add Record");
     int print = 37;
     FILE *fp;
-    fp = fopen("gt.txt","ab+");
+    fp = fopen("gt.txt","ab+");  // if gt.text is already exist then it will open and write otherwise it will create gt.txt file,
+    // All data will be store in this file
     SetColor(45);
     if(fp == NULL){
         MessageBox(0,"Error in Opening file\nMake Sure Your File is Not Write Protected","Warning",0);
