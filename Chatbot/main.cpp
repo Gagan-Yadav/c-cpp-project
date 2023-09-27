@@ -70,7 +70,7 @@ else if(strcmp(ch,"what is your name")==0)
 else if(strcmp(ch,"i love you")==0)
 {
 	 PlaySound(TEXT("i love you.wav"),NULL,SND_SYNC);
-	 cout<<"                 I love you too, GAGAN \n";
+	 cout<<"                 I love you too,  \n";
 }
 else if(strcmp(ch,"open calculator")==0)
 {
@@ -222,11 +222,11 @@ else
 
 else if(strcmp(ch,"tell me about gagan")==0)
 {
-     std::string phrase = "gagan, he is very smart and a genius man";
+     std::string phrase = "gagan, he is a genius";
     std::string command = "espeak -v +f3 \""+phrase+"\"";
     const char* charCommand=command.c_str();
    system(charCommand);
-  cout<<"     gagan, he is very smart and a genius man  \n";
+  cout<<"     gagan, he is a genius  \n";
   
 
 }
@@ -234,10 +234,10 @@ else if(strcmp(ch,"exit")==0)
 {
     exit(0);
 }
-else if(strcmp(ch,"bye sweatheart")==0)
+else if(strcmp(ch,"bye")==0)
 {
     PlaySound(TEXT("bye.wav"),NULL,SND_SYNC);
-    cout<<"          Take care, bubye GAGAN , lOVE YOU\n";
+    cout<<"          Take care, bubye , lOVE YOU\n";
     exit(0);
 }
 else
