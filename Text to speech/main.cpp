@@ -10,7 +10,7 @@ char ch[50];
     cout<<"\n Enter text to speech\n";
    cin. getline(ch,50);
    //for(int i=0;i<=100;i++)
-//   cout<<ch[i];                                                                                                
+  //cout<<ch[i];                                                                                                
    // {
         std::string phrase = ch;
     std::string command = "espeak -v +f4 \""+phrase+"\"";
