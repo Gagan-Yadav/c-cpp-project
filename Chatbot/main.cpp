@@ -46,7 +46,7 @@ using namespace std;
 int main()
 {
    char ch[100];
-  cout<<"                   !!!! For Singles !!!! \n                          BY GAGAN \n";
+  cout<<"                   !!!! For Testing !!!! \n                          BY GAGAN \n";
  while(1)
 {
 cout<<"\n\n";
@@ -67,11 +67,7 @@ else if(strcmp(ch,"what is your name")==0)
 	PlaySound(TEXT("niharika.wav"),NULL,SND_SYNC);
 	cout<<"              I am NIHARIKA\n";
 }
-else if(strcmp(ch,"i love you")==0)
-{
-	 PlaySound(TEXT("i love you.wav"),NULL,SND_SYNC);
-	 cout<<"                 I love you too,  \n";
-}
+
 else if(strcmp(ch,"open calculator")==0)
 {
    int  clrscr();
@@ -167,11 +163,6 @@ else if(strcmp(ch,"do you like me")==0)
 	 PlaySound(TEXT("yes.wav"),NULL,SND_SYNC);
 	 cout<<"             YES\n";
 }   
-else if(strcmp(ch,"you are my crush")==0)
-{
-	 PlaySound(TEXT("sundar.wav"),NULL,SND_SYNC);
-	 cout<<"             main itni sundar hoon me kya karu\n";
-}
 else if(strcmp(ch,"switch to hydron")==0)
 {
     
@@ -237,7 +228,7 @@ else if(strcmp(ch,"exit")==0)
 else if(strcmp(ch,"bye")==0)
 {
     PlaySound(TEXT("bye.wav"),NULL,SND_SYNC);
-    cout<<"          Take care, bubye , lOVE YOU\n";
+    cout<<"          Take care, bye!\n";
     exit(0);
 }
 else
